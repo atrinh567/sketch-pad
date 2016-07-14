@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ 	<meta charset="utf-8">
+
+ 	<title>Canvas of Color</title>
+ 	<meta name="description" content="Canvas">
+  	<meta name="author" content="Anthony Trinh">
+
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  	<link rel="stylesheet" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="background"></div>
+	<div class="welcome">
+		<h1>Random Color Canvas!</h1>
+	</div>
+	<div class="form">
+		<button class="btn btn-danger" id="clrBtn" type="button">Clear</button>
+		<button class="btn btn-primary" id="gridBtn" type="button">Create New</button>
+		<button class="btn btn-info" id="randBtn" type="button">Random Fill</button>
+		<br>
+		<div id="formIn">
+			<input type="number" id="numOne" placeholder="Columns" />
+			<input type="number" id="numTwo" placeholder="Rows" />
+			<button class="btn btn-primary" id="createBtn" type="button">Create!</button>
+		</div>
+	</div>
+	<div class="grid">
+	</div>
+	<div class="footer">
+		<h2>&copy; Anthony Trinh 2016</h2>
+	</div>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
